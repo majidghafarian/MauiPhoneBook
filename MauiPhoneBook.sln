@@ -5,13 +5,15 @@ VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A490A478-54AD-4290-94DC-A1295BD684E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{DF9256CF-3821-4AAC-9D9D-042EE37E4F7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{DF9256CF-3821-4AAC-9D9D-042EE37E4F7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{2FADCE9B-EF76-4D1B-B9F4-5A11E46B3D7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{2FADCE9B-EF76-4D1B-B9F4-5A11E46B3D7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{7C0DCF19-9922-405A-99F6-D5EF2B1CD029}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{7C0DCF19-9922-405A-99F6-D5EF2B1CD029}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{09AD727F-E684-4413-9954-0C96FEC20BA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{09AD727F-E684-4413-9954-0C96FEC20BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookMAUI", "PhoneBookMAUI\PhoneBookMAUI.csproj", "{1D2411C7-7A60-476E-B728-89690EE9EBDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,12 @@ Global
 		{09AD727F-E684-4413-9954-0C96FEC20BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09AD727F-E684-4413-9954-0C96FEC20BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09AD727F-E684-4413-9954-0C96FEC20BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2411C7-7A60-476E-B728-89690EE9EBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2411C7-7A60-476E-B728-89690EE9EBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2411C7-7A60-476E-B728-89690EE9EBDD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1D2411C7-7A60-476E-B728-89690EE9EBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2411C7-7A60-476E-B728-89690EE9EBDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2411C7-7A60-476E-B728-89690EE9EBDD}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

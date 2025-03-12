@@ -8,5 +8,6 @@ namespace Application.IRepositories
 {
     public interface IPhoneBookRepository : IReadRepository<Domain.PhoneBook>, IWriteRepository<Domain.PhoneBook>
     {
+        Task<IEnumerable<Domain.PhoneBook>> GetPhoneBooksByNameAsync(string name);
     }
 }

@@ -14,24 +14,24 @@ namespace Infrastructure.Repositories
     public class PhoneBookRepository : IPhoneBookRepository
     {
         private readonly ApplicationDbContext _context;
-        private readonly IHubContext<PhoneBookHub> _hubContext;
-        public PhoneBookRepository(ApplicationDbContext context, IHubContext<PhoneBookHub> hubContext)
+      
+        public PhoneBookRepository(ApplicationDbContext context )
         {
             _context = context;
-            _hubContext = hubContext;
+            
         }
         public async Task AddNewAsync(PhoneBook entity)
         {
             await _context.phoneBooks.AddAsync(entity);
             await _context.SaveChangesAsync();
-            await _hubContext.Clients.All.SendAsync("ReceivePhoneBookUpdate", entity);
+            
         }
 
         public async Task DeleteAsync(PhoneBook entity)
         {
             _context.phoneBooks.Remove(entity);
             await _context.SaveChangesAsync();
-            await _hubContext.Clients.All.SendAsync("ReceivePhoneBookUpdate", entity);
+           
         }
 
         public async Task<List<PhoneBook>> GetAllAsync()
@@ -48,7 +48,13 @@ namespace Infrastructure.Repositories
         {
             _context.phoneBooks.Update(entity);
             await _context.SaveChangesAsync();
-            await _hubContext.Clients.All.SendAsync("ReceivePhoneBookUpdate", entity);
+           
+        }
+        public async Task<IEnumerable<Domain.PhoneBook>> GetPhoneBooksByNameAsync(string name)
+        {
+            return await _context.phoneBooks
+                                 .Where(p => p.Name.Contains(name)) // جستجو بر اساس نام
+                                 .ToListAsync();
         }
     }
 }

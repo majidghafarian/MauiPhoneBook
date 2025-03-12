@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MauiPhoneBook\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\MauiPhoneBook\\MauiPhoneBook\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\MauiPhoneBook\\Application\\Application.csproj": {
+    "D:\\MauiPhoneBook\\MauiPhoneBook\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MauiPhoneBook\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\MauiPhoneBook\\MauiPhoneBook\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\MauiPhoneBook\\Application\\Application.csproj",
+        "projectPath": "D:\\MauiPhoneBook\\MauiPhoneBook\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\This.Me\\.nuget\\packages\\",
-        "outputPath": "D:\\MauiPhoneBook\\Application\\obj\\",
+        "outputPath": "D:\\MauiPhoneBook\\MauiPhoneBook\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\MauiPhoneBook\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\MauiPhoneBook\\Domain\\Domain.csproj"
+              "D:\\MauiPhoneBook\\MauiPhoneBook\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\MauiPhoneBook\\MauiPhoneBook\\Domain\\Domain.csproj"
               }
             }
           }
@@ -53,6 +53,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -73,14 +87,14 @@
         }
       }
     },
-    "D:\\MauiPhoneBook\\Domain\\Domain.csproj": {
+    "D:\\MauiPhoneBook\\MauiPhoneBook\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MauiPhoneBook\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\MauiPhoneBook\\MauiPhoneBook\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\MauiPhoneBook\\Domain\\Domain.csproj",
+        "projectPath": "D:\\MauiPhoneBook\\MauiPhoneBook\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\This.Me\\.nuget\\packages\\",
-        "outputPath": "D:\\MauiPhoneBook\\Domain\\obj\\",
+        "outputPath": "D:\\MauiPhoneBook\\MauiPhoneBook\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -138,14 +152,14 @@
         }
       }
     },
-    "D:\\MauiPhoneBook\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\MauiPhoneBook\\MauiPhoneBook\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MauiPhoneBook\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\MauiPhoneBook\\MauiPhoneBook\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\MauiPhoneBook\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\MauiPhoneBook\\MauiPhoneBook\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\This.Me\\.nuget\\packages\\",
-        "outputPath": "D:\\MauiPhoneBook\\Infrastructure\\obj\\",
+        "outputPath": "D:\\MauiPhoneBook\\MauiPhoneBook\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -167,8 +181,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\MauiPhoneBook\\Application\\Application.csproj": {
-                "projectPath": "D:\\MauiPhoneBook\\Application\\Application.csproj"
+              "D:\\MauiPhoneBook\\MauiPhoneBook\\Application\\Application.csproj": {
+                "projectPath": "D:\\MauiPhoneBook\\MauiPhoneBook\\Application\\Application.csproj"
               }
             }
           }

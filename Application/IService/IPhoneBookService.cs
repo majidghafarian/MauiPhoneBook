@@ -1,4 +1,5 @@
-﻿using Domain;
+﻿using Application.Models.PhoneBookDTO;
+using Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,9 @@ namespace Application.IService
     {
         Task StartAsync();
         Task HandlePhoneBookUpdate(PhoneBook updatedPhoneBook);
+        Task<IEnumerable<ReadPhoneBookDto>> GetAllPhoneBookEntriesAsync();
+        Task<ReadPhoneBookDto> CreatePhoneBookEntryAsync(ReadPhoneBookDto entry);
+        Task<IEnumerable<ReadPhoneBookDto>> SearchAsync(string searchQuery);
     }
 
 }

@@ -1,0 +1,16 @@
+D:\MauiPhoneBook\MauiPhoneBook\Application\bin\Debug\net8.0\Application.deps.json
+D:\MauiPhoneBook\MauiPhoneBook\Application\bin\Debug\net8.0\Application.dll
+D:\MauiPhoneBook\MauiPhoneBook\Application\bin\Debug\net8.0\Application.pdb
+D:\MauiPhoneBook\MauiPhoneBook\Application\bin\Debug\net8.0\Domain.dll
+D:\MauiPhoneBook\MauiPhoneBook\Application\bin\Debug\net8.0\Domain.pdb
+D:\MauiPhoneBook\MauiPhoneBook\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\MauiPhoneBook\MauiPhoneBook\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\MauiPhoneBook\MauiPhoneBook\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+D:\MauiPhoneBook\MauiPhoneBook\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+D:\MauiPhoneBook\MauiPhoneBook\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\MauiPhoneBook\MauiPhoneBook\Application\obj\Debug\net8.0\Application.sourcelink.json
+D:\MauiPhoneBook\MauiPhoneBook\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+D:\MauiPhoneBook\MauiPhoneBook\Application\obj\Debug\net8.0\Application.dll
+D:\MauiPhoneBook\MauiPhoneBook\Application\obj\Debug\net8.0\refint\Application.dll
+D:\MauiPhoneBook\MauiPhoneBook\Application\obj\Debug\net8.0\Application.pdb
+D:\MauiPhoneBook\MauiPhoneBook\Application\obj\Debug\net8.0\ref\Application.dll
