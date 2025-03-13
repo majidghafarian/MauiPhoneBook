@@ -1,12 +1,12 @@
 ﻿namespace PhoneBookMAUI
 {
-    public partial class App : Application
+    public partial class App : Microsoft.Maui.Controls.Application
     {
-        public App()
+        public App(MainPage mainPage)
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage =mainPage;
         }
     }
 }

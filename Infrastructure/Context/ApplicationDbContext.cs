@@ -1,4 +1,4 @@
-﻿using Infrastructure.FluentConfig;
+﻿ 
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -15,7 +15,7 @@ namespace Infrastructure.Context
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new FluentPhoneNumberConfig());
+          
         }
         public DbSet<Domain.PhoneBook> phoneBooks { get; set; }
 

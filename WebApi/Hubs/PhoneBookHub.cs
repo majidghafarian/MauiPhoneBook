@@ -14,12 +14,12 @@ namespace WebApi.Hubs
             _phoneBookService = phoneBookService;
         }
         public async Task SendPhoneBookResults(string searchQuery)
-        {
+    {
             // جستجو در داده‌ها (برای مثال، جستجو در دیتابیس)
             var results = await _phoneBookService.SearchAsync(searchQuery);
 
             // ایجاد تاخیر مصنوعی برای شبیه‌سازی زمان پردازش
-            await Task.Delay(1000); // اینجا 1 ثانیه تاخیر اعمال می‌شود
+            //await Task.Delay(1000); // اینجا 1 ثانیه تاخیر اعمال می‌شود
 
             // ارسال نتایج به کلاینت‌ها
             await Clients.All.SendAsync("ReceivePhoneBookResults", results);

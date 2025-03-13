@@ -3,16 +3,7 @@ using Application.IUnitOfWork;
 using Application.Models.PhoneBookDTO;
 using AutoMapper;
 using Domain;
-using Infrastructure.UnitOfWork;
-using Microsoft.AspNetCore.SignalR;
-using Microsoft.AspNetCore.SignalR.Client;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+ 
 namespace Infrastructure.Service
 {
     public class PhoneBookService : IPhoneBookService

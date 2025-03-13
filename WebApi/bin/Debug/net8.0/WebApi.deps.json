@@ -9,6 +9,9 @@
       "WebApi/1.0.0": {
         "dependencies": {
           "Infrastructure": "1.0.0",
+          "Microsoft.AspNetCore.SignalR": "1.2.0",
+          "Microsoft.AspNetCore.SignalR.Common": "8.0.1",
+          "Microsoft.AspNetCore.SignalR.Core": "1.2.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
