@@ -71,8 +71,7 @@
               "RelativeToolTip": "Application\\Models\\PhoneBookDTO\\ReadPhoneBookDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T12:49:47.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T12:49:47.294Z"
             },
             {
               "$type": "Document",
@@ -84,8 +83,7 @@
               "RelativeToolTip": "WebApi\\Hubs\\PhoneBookHub.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T12:18:53.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T12:18:53.598Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "MAUIBLZ\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T12:25:24.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T12:25:24.625Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "MAUIBLZ\\MauiProgram.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwBcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T12:23:42.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T12:23:42.908Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "MAUIBLZ\\Service\\SignalRService.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAAAC4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T12:20:08.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T12:20:08.89Z"
             }
           ]
         }
