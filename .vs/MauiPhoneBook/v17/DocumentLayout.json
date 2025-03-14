@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\MauiPhoneBook\\MauiPhoneBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D2411C7-7A60-476E-B728-89690EE9EBDD}|PhoneBookMAUI\\PhoneBookMAUI.csproj|d:\\mauiphonebook\\mauiphonebook\\phonebookmaui\\viewmodels\\phonebookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D2411C7-7A60-476E-B728-89690EE9EBDD}|PhoneBookMAUI\\PhoneBookMAUI.csproj|solutionrelative:phonebookmaui\\viewmodels\\phonebookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}|MAUIBLZ\\MAUIBLZ.csproj|d:\\mauiphonebook\\mauiphonebook\\mauiblz\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}|MAUIBLZ\\MAUIBLZ.csproj|solutionrelative:mauiblz\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D2411C7-7A60-476E-B728-89690EE9EBDD}|PhoneBookMAUI\\PhoneBookMAUI.csproj|d:\\mauiphonebook\\mauiphonebook\\phonebookmaui\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D2411C7-7A60-476E-B728-89690EE9EBDD}|PhoneBookMAUI\\PhoneBookMAUI.csproj|solutionrelative:phonebookmaui\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}|MAUIBLZ\\MAUIBLZ.csproj|d:\\mauiphonebook\\mauiphonebook\\mauiblz\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}|MAUIBLZ\\MAUIBLZ.csproj|solutionrelative:mauiblz\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D2411C7-7A60-476E-B728-89690EE9EBDD}|PhoneBookMAUI\\PhoneBookMAUI.csproj|d:\\mauiphonebook\\mauiphonebook\\phonebookmaui\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1D2411C7-7A60-476E-B728-89690EE9EBDD}|PhoneBookMAUI\\PhoneBookMAUI.csproj|solutionrelative:phonebookmaui\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}|MAUIBLZ\\MAUIBLZ.csproj|d:\\mauiphonebook\\mauiphonebook\\mauiblz\\service\\signalrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}|MAUIBLZ\\MAUIBLZ.csproj|solutionrelative:mauiblz\\service\\signalrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09AD727F-E684-4413-9954-0C96FEC20BA0}|WebApi\\WebApi.csproj|d:\\mauiphonebook\\mauiphonebook\\webapi\\hubs\\phonebookhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09AD727F-E684-4413-9954-0C96FEC20BA0}|WebApi\\WebApi.csproj|solutionrelative:webapi\\hubs\\phonebookhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}|MAUIBLZ\\MAUIBLZ.csproj|d:\\mauiphonebook\\mauiphonebook\\mauiblz\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}|MAUIBLZ\\MAUIBLZ.csproj|solutionrelative:mauiblz\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C0DCF19-9922-405A-99F6-D5EF2B1CD029}|Application\\Application.csproj|d:\\mauiphonebook\\mauiphonebook\\application\\models\\phonebookdto\\readphonebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C0DCF19-9922-405A-99F6-D5EF2B1CD029}|Application\\Application.csproj|solutionrelative:application\\models\\phonebookdto\\readphonebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,40 +51,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PhoneBookViewModel.cs",
-              "DocumentMoniker": "D:\\MauiPhoneBook\\MauiPhoneBook\\PhoneBookMAUI\\ViewModels\\PhoneBookViewModel.cs",
-              "RelativeDocumentMoniker": "PhoneBookMAUI\\ViewModels\\PhoneBookViewModel.cs",
-              "ToolTip": "D:\\MauiPhoneBook\\MauiPhoneBook\\PhoneBookMAUI\\ViewModels\\PhoneBookViewModel.cs",
-              "RelativeToolTip": "PhoneBookMAUI\\ViewModels\\PhoneBookViewModel.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAIwCIAAAAQAAAA",
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "MAUIBLZ\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "MAUIBLZ\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T12:55:08.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReadPhoneBookDto.cs",
+              "DocumentMoniker": "D:\\MauiPhoneBook\\MauiPhoneBook\\Application\\Models\\PhoneBookDTO\\ReadPhoneBookDto.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\PhoneBookDTO\\ReadPhoneBookDto.cs",
+              "ToolTip": "D:\\MauiPhoneBook\\MauiPhoneBook\\Application\\Models\\PhoneBookDTO\\ReadPhoneBookDto.cs",
+              "RelativeToolTip": "Application\\Models\\PhoneBookDTO\\ReadPhoneBookDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T17:26:37.052Z",
+              "WhenOpened": "2025-03-14T12:49:47.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhoneBookHub.cs",
+              "DocumentMoniker": "D:\\MauiPhoneBook\\MauiPhoneBook\\WebApi\\Hubs\\PhoneBookHub.cs",
+              "RelativeDocumentMoniker": "WebApi\\Hubs\\PhoneBookHub.cs",
+              "ToolTip": "D:\\MauiPhoneBook\\MauiPhoneBook\\WebApi\\Hubs\\PhoneBookHub.cs",
+              "RelativeToolTip": "WebApi\\Hubs\\PhoneBookHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:18:53.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "D:\\MauiPhoneBook\\MauiPhoneBook\\PhoneBookMAUI\\Pages\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "PhoneBookMAUI\\Pages\\MainPage.xaml.cs",
-              "ToolTip": "D:\\MauiPhoneBook\\MauiPhoneBook\\PhoneBookMAUI\\Pages\\MainPage.xaml.cs",
-              "RelativeToolTip": "PhoneBookMAUI\\Pages\\MainPage.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MAUIBLZ\\App.xaml.cs",
+              "ToolTip": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\App.xaml.cs",
+              "RelativeToolTip": "MAUIBLZ\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T17:23:13.628Z",
+              "WhenOpened": "2025-03-14T12:25:24.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MAUIBLZ\\MauiProgram.cs",
+              "ToolTip": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\MauiProgram.cs",
+              "RelativeToolTip": "MAUIBLZ\\MauiProgram.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:23:42.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "D:\\MauiPhoneBook\\MauiPhoneBook\\PhoneBookMAUI\\Pages\\MainPage.xaml",
-              "RelativeDocumentMoniker": "PhoneBookMAUI\\Pages\\MainPage.xaml",
-              "ToolTip": "D:\\MauiPhoneBook\\MauiPhoneBook\\PhoneBookMAUI\\Pages\\MainPage.xaml",
-              "RelativeToolTip": "PhoneBookMAUI\\Pages\\MainPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-13T15:25:53.392Z",
+              "Title": "SignalRService.cs",
+              "DocumentMoniker": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\Service\\SignalRService.cs",
+              "RelativeDocumentMoniker": "MAUIBLZ\\Service\\SignalRService.cs",
+              "ToolTip": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\Service\\SignalRService.cs",
+              "RelativeToolTip": "MAUIBLZ\\Service\\SignalRService.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAAC4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:20:08.89Z",
               "EditorCaption": ""
             }
           ]

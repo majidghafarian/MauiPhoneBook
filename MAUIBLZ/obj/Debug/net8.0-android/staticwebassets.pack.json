@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\MAUIBLZ.styles.css",
+      "PackagePath": "staticwebassets\\MAUIBLZ.styles.css"
+    },
+    {
+      "Id": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.MAUIBLZ.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.build.MAUIBLZ.props",
+      "PackagePath": "build\\MAUIBLZ.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildMultiTargeting.MAUIBLZ.props",
+      "PackagePath": "buildMultiTargeting\\MAUIBLZ.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildTransitive.MAUIBLZ.props",
+      "PackagePath": "buildTransitive\\MAUIBLZ.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -14,7 +14,7 @@ namespace Application.IService
         Task HandlePhoneBookUpdate(PhoneBook updatedPhoneBook);
         Task<IEnumerable<ReadPhoneBookDto>> GetAllPhoneBookEntriesAsync();
         Task<ReadPhoneBookDto> CreatePhoneBookEntryAsync(ReadPhoneBookDto entry);
-        Task<IEnumerable<ReadPhoneBookDto>> SearchAsync(string searchQuery);
+        Task<List<ReadPhoneBookDto>> SearchAsync(string searchQuery);
     }
 
 }

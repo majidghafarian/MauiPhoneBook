@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{09AD727F-E684-4413-9954-0C96FEC20BA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookMAUI", "PhoneBookMAUI\PhoneBookMAUI.csproj", "{1D2411C7-7A60-476E-B728-89690EE9EBDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUIBLZ", "MAUIBLZ\MAUIBLZ.csproj", "{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,12 +37,12 @@ Global
 		{09AD727F-E684-4413-9954-0C96FEC20BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09AD727F-E684-4413-9954-0C96FEC20BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09AD727F-E684-4413-9954-0C96FEC20BA0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1D2411C7-7A60-476E-B728-89690EE9EBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D2411C7-7A60-476E-B728-89690EE9EBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D2411C7-7A60-476E-B728-89690EE9EBDD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{1D2411C7-7A60-476E-B728-89690EE9EBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D2411C7-7A60-476E-B728-89690EE9EBDD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1D2411C7-7A60-476E-B728-89690EE9EBDD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB25263-5E97-4F53-B514-DDAEA75FF0D3}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
