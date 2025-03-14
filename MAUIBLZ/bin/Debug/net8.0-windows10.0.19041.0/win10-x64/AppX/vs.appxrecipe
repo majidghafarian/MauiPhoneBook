@@ -29,7 +29,7 @@
     <AppXManifest Include="D:\MauiPhoneBook\MauiPhoneBook\MAUIBLZ\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-14T17:10:12.127</Modified>
+      <Modified>2025-03-14T19:52:01.931</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\MauiPhoneBook\MauiPhoneBook\MAUIBLZ\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MAUIBLZ.dll">
       <PackagePath>MAUIBLZ.dll</PackagePath>
-      <Modified>2025-03-14T17:10:11.667</Modified>
+      <Modified>2025-03-14T19:52:01.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\MauiPhoneBook\MauiPhoneBook\MAUIBLZ\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MAUIBLZ.exe</PackagePath>
-      <Modified>2025-03-14T17:10:11.671</Modified>
+      <Modified>2025-03-14T19:52:01.445</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\MauiPhoneBook\MauiPhoneBook\MAUIBLZ\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
