@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\MauiPhoneBook\MauiPhoneBook\MAUIBLZ\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-14T19:52:01.931</Modified>
+      <Modified>2025-03-17T16:48:18.688</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\MauiPhoneBook\MauiPhoneBook\MAUIBLZ\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-03-14T16:46:58.660</Modified>
+      <Modified>2025-03-17T16:26:15.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\MauiPhoneBook\MauiPhoneBook\MAUIBLZ\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MAUIBLZ.runtimeconfig.json">
       <PackagePath>MAUIBLZ.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\MauiPhoneBook\MauiPhoneBook\MAUIBLZ\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MAUIBLZ.dll">
       <PackagePath>MAUIBLZ.dll</PackagePath>
-      <Modified>2025-03-14T19:52:01.439</Modified>
+      <Modified>2025-03-17T16:26:15.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\MauiPhoneBook\MauiPhoneBook\MAUIBLZ\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MAUIBLZ.exe</PackagePath>
-      <Modified>2025-03-14T19:52:01.445</Modified>
+      <Modified>2025-03-17T16:26:15.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\MauiPhoneBook\MauiPhoneBook\MAUIBLZ\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -887,7 +887,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\MauiPhoneBook\MauiPhoneBook\Application\bin\Debug\net8.0\Application.dll">
       <PackagePath>Application.dll</PackagePath>
-      <Modified>2025-03-14T15:31:32.985</Modified>
+      <Modified>2025-03-17T15:31:22.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\MauiPhoneBook\MauiPhoneBook\Domain\bin\Debug\net8.0\Domain.dll">
       <PackagePath>Domain.dll</PackagePath>
@@ -895,7 +895,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\MauiPhoneBook\MauiPhoneBook\Infrastructure\bin\Debug\net8.0\Infrastructure.dll">
       <PackagePath>Infrastructure.dll</PackagePath>
-      <Modified>2025-03-14T15:31:33.428</Modified>
+      <Modified>2025-03-17T15:37:46.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\This.Me\.nuget\packages\microsoft.maui.controls.compatibility\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

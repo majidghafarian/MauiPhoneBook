@@ -24,6 +24,7 @@
 
 
 @code {
+    private CancellationTokenSource _cts = new();
     private Timer _typingDelayTimer;
     private string _searchQuery;
 
@@ -43,26 +44,41 @@
         SignalRService.OnPhoneBookResultsChanged += async () => await InvokeAsync(StateHasChanged);
     }
 
+
     private async Task OnSearchTextChanged()
     {
         if (!SignalRService.IsConnected)
-        {
-            return; // اگر اتصال برقرار نشده، کاری نکن
-        }
+            return;
 
-        _typingDelayTimer?.Dispose();
+        // لغو توکن قبلی و ایجاد توکن جدید
+        _cts.Cancel();
+        _cts.Dispose();
+        _cts = new CancellationTokenSource();
 
         if (string.IsNullOrWhiteSpace(_searchQuery))
         {
             SignalRService.PhoneBookResults.Clear();
-            await InvokeAsync(StateHasChanged); // ✅ تغییر وضعیت UI در Dispatcher
+            await InvokeAsync(StateHasChanged);
         }
         else
         {
+            _typingDelayTimer?.Dispose();
             _typingDelayTimer = new Timer(async _ =>
             {
-                await SignalRService.SearchPhoneBookAsync(_searchQuery);
-                await InvokeAsync(StateHasChanged); // ✅ اجرای امن برای تغییر UI
+                try
+                {
+                    // چک کردن وضعیت توکن در اینجا (اختیاری)
+                    if (_cts.Token.IsCancellationRequested)
+                        return;
+
+                    // ارسال توکن به متد جستجو
+                    await SignalRService.SearchPhoneBookAsync(_searchQuery );
+                    await InvokeAsync(StateHasChanged);
+                }
+                catch (OperationCanceledException)
+                {
+                    Console.WriteLine("🔴 جستجو لغو شد.");
+                }
             }, null, 75, Timeout.Infinite);
         }
     }

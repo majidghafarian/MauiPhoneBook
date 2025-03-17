@@ -58,14 +58,18 @@ namespace Infrastructure.Service
             await _unitOfWork.CommitAsync();
             return _mapper.Map<ReadPhoneBookDto>(newEntry);
         }
-        public async Task<List<ReadPhoneBookDto>> SearchAsync(string searchQuery)
-        {
-            // فراخوانی متد جستجو از ریپازیتوری
-            var phoneBooks = await _unitOfWork.phoneBookRepository.GetPhoneBooksByNameAsync(searchQuery);
 
-            // تبدیل نتایج به DTO با استفاده از AutoMapper
-            return _mapper.Map<List<ReadPhoneBookDto>>(phoneBooks);
+        public async Task<List<ReadPhoneBookDto>> SearchAsync(string searchQuery, CancellationToken cancellationToken = default)
+        {
+            if (string.IsNullOrWhiteSpace(searchQuery))
+                return new List<ReadPhoneBookDto>();
+
+            var results = await _unitOfWork.phoneBookRepository.GetPhoneBooksByNameAsync(searchQuery, cancellationToken);
+
+            return _mapper.Map<List<ReadPhoneBookDto>>(results);
         }
+
+
     }
 
 

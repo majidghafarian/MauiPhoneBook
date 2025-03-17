@@ -50,11 +50,13 @@ namespace Infrastructure.Repositories
             await _context.SaveChangesAsync();
            
         }
-        public async Task<IEnumerable<Domain.PhoneBook>> GetPhoneBooksByNameAsync(string name)
+        public async Task<IEnumerable<Domain.PhoneBook>> GetPhoneBooksByNameAsync(string name, CancellationToken cancellationToken = default)
         {
             return await _context.phoneBooks
-                                 .Where(p => p.Name.Contains(name)) // جستجو بر اساس نام
-                                 .ToListAsync();
+                                 .Where(p => p.Name.Contains(name))
+                                 .ToListAsync(cancellationToken);
         }
+
+
     }
 }

@@ -20,6 +20,8 @@ namespace MAUIBLZ.Service
 
         public async Task ConnectAsync()
         {
+            Console.WriteLine("🚀 تلاش برای اتصال به SignalR...");
+
             _hubConnection = new HubConnectionBuilder()
                 .WithUrl("https://localhost:7011/phonebookHub")
                 .WithAutomaticReconnect()
@@ -29,26 +31,45 @@ namespace MAUIBLZ.Service
             {
                 MainThread.BeginInvokeOnMainThread(() =>
                 {
+                    Console.WriteLine($"✅ دریافت {results.Count} نتیجه از سرور.");
                     PhoneBookResults.Clear();
                     foreach (var item in results)
                     {
                         PhoneBookResults.Add(item);
                     }
 
-                    OnPhoneBookResultsChanged?.Invoke(); // فراخوانی برای به‌روزرسانی UI
+                    OnPhoneBookResultsChanged?.Invoke();
                 });
             });
 
-            await _hubConnection.StartAsync();
+            try
+            {
+                await _hubConnection.StartAsync();
+                Console.WriteLine("✅ اتصال به SignalR برقرار شد.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ خطا در اتصال به SignalR: {ex.Message}");
+            }
         }
+
+
+
 
         public async Task SearchPhoneBookAsync(string searchQuery)
-        
         {
-           if (!IsConnected)
+            if (!IsConnected || string.IsNullOrWhiteSpace(searchQuery))
                 return;
 
-            await _hubConnection.InvokeAsync("SendPhoneBookResults", searchQuery);
+            try
+            {
+                await _hubConnection.InvokeAsync("SendPhoneBookResults", searchQuery);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ خطا در جستجو: {ex.Message}");
+            }
         }
+
     }
 }
