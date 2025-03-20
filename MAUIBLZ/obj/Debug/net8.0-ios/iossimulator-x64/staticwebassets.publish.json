@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/sOtp5rfuA72WcSEhPZ/YDfoyOrF+boXfAlQiir4XwU=",
+  "Hash": "IjIe2AGtVpEmld0jstJoMz8btmphRjtgMGN/nl+FuT0=",
   "Source": "MAUIBLZ",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,19 +10,19 @@
     {
       "Name": "MAUIBLZ\\wwwroot",
       "Source": "MAUIBLZ",
-      "ContentRoot": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\MAUIBLZ.styles.css",
+      "Identity": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\MAUIBLZ.styles.css",
       "SourceId": "MAUIBLZ",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\",
       "BasePath": "/",
-      "RelativePath": "MAUIBLZ.styles.css",
+      "RelativePath": "MAUIBLZ#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -31,17 +31,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "e74yt9zznv",
+      "Integrity": "NsV7RTFPr876tuXV3mBMVUnXDbBE890VY64mbMuvc3A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\MAUIBLZ.styles.css"
+      "OriginalItemSpec": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\MAUIBLZ.styles.css"
     },
     {
-      "Identity": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\MAUIBLZ.bundle.scp.css",
+      "Identity": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\MAUIBLZ.bundle.scp.css",
       "SourceId": "MAUIBLZ",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\",
       "BasePath": "/",
-      "RelativePath": "MAUIBLZ.bundle.scp.css",
+      "RelativePath": "MAUIBLZ#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -50,104 +52,692 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "e74yt9zznv",
+      "Integrity": "NsV7RTFPr876tuXV3mBMVUnXDbBE890VY64mbMuvc3A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\MAUIBLZ.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\MAUIBLZ.bundle.scp.css"
     },
     {
-      "Identity": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\app.css",
+      "Identity": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\app.css",
       "SourceId": "MAUIBLZ",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "css/app.css",
+      "RelativePath": "css/app#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "dex3usdpik",
+      "Integrity": "K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "MAUIBLZ",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "css/bootstrap/bootstrap.min.css",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "MAUIBLZ",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "css/bootstrap/bootstrap.min.css.map",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\favicon.png",
       "SourceId": "MAUIBLZ",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "favicon.png",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\index.html",
       "SourceId": "MAUIBLZ",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MauiPhoneBook\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "index.html",
+      "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "wle572vs7b",
+      "Integrity": "NHjxocq/x0IDf8TYJnkH4eFeDWgpD2aFjGKK4fCUOfQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/app.css",
+      "AssetFile": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:37:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.dex3usdpik.css",
+      "AssetFile": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:37:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dex3usdpik"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K1bY5kgLeD7nMlhLfmEK3TdjOVTQGBzyOIF4YwRlzuQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:37:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:37:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:37:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:37:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:37:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:37:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NHjxocq/x0IDf8TYJnkH4eFeDWgpD2aFjGKK4fCUOfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:37:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NHjxocq/x0IDf8TYJnkH4eFeDWgpD2aFjGKK4fCUOfQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.wle572vs7b.html",
+      "AssetFile": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NHjxocq/x0IDf8TYJnkH4eFeDWgpD2aFjGKK4fCUOfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:37:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wle572vs7b"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NHjxocq/x0IDf8TYJnkH4eFeDWgpD2aFjGKK4fCUOfQ="
+        }
+      ]
+    },
+    {
+      "Route": "MAUIBLZ.bundle.scp.css",
+      "AssetFile": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\MAUIBLZ.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NsV7RTFPr876tuXV3mBMVUnXDbBE890VY64mbMuvc3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:37:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NsV7RTFPr876tuXV3mBMVUnXDbBE890VY64mbMuvc3A="
+        }
+      ]
+    },
+    {
+      "Route": "MAUIBLZ.e74yt9zznv.bundle.scp.css",
+      "AssetFile": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\MAUIBLZ.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NsV7RTFPr876tuXV3mBMVUnXDbBE890VY64mbMuvc3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:37:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e74yt9zznv"
+        },
+        {
+          "Name": "label",
+          "Value": "MAUIBLZ.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NsV7RTFPr876tuXV3mBMVUnXDbBE890VY64mbMuvc3A="
+        }
+      ]
+    },
+    {
+      "Route": "MAUIBLZ.e74yt9zznv.styles.css",
+      "AssetFile": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\MAUIBLZ.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NsV7RTFPr876tuXV3mBMVUnXDbBE890VY64mbMuvc3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:37:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e74yt9zznv"
+        },
+        {
+          "Name": "label",
+          "Value": "MAUIBLZ.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NsV7RTFPr876tuXV3mBMVUnXDbBE890VY64mbMuvc3A="
+        }
+      ]
+    },
+    {
+      "Route": "MAUIBLZ.styles.css",
+      "AssetFile": "C:\\Users\\This Me\\Documents\\GitHub\\MauiPhoneBook\\MAUIBLZ\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\MAUIBLZ.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NsV7RTFPr876tuXV3mBMVUnXDbBE890VY64mbMuvc3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Mar 2025 15:37:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NsV7RTFPr876tuXV3mBMVUnXDbBE890VY64mbMuvc3A="
+        }
+      ]
     }
   ]
 }

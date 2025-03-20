@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MAUIBLZ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d9c4126af47abb274bd10517782472ea5729a1fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f94ba16e5b928e0898b4e545c15dffe92ea05d39")]
 [assembly: System.Reflection.AssemblyProductAttribute("MAUIBLZ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MAUIBLZ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

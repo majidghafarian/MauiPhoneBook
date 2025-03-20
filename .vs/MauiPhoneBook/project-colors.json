@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2fadce9b-ef76-4d1b-b9f4-5a11e46b3d7a": {
+      "ProjectGuid": "2fadce9b-ef76-4d1b-b9f4-5a11e46b3d7a",
+      "DisplayName": "Infrastructure",
+      "ColorIndex": 0
+    },
+    "6cb25263-5e97-4f53-b514-ddaea75ff0d3": {
+      "ProjectGuid": "6cb25263-5e97-4f53-b514-ddaea75ff0d3",
+      "DisplayName": "MAUIBLZ",
+      "ColorIndex": 1
+    },
+    "09ad727f-e684-4413-9954-0c96fec20ba0": {
+      "ProjectGuid": "09ad727f-e684-4413-9954-0c96fec20ba0",
+      "DisplayName": "WebApi",
+      "ColorIndex": 2
+    },
+    "87376d1a-dd39-4229-af38-7a701b833935": {
+      "ProjectGuid": "87376d1a-dd39-4229-af38-7a701b833935",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

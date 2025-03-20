@@ -24,6 +24,8 @@
 
 
 @code {
+    private string _lastSearchRequestId = string.Empty;
+
     private CancellationTokenSource _cts = new();
     private Timer _typingDelayTimer;
     private string _searchQuery;
@@ -67,19 +69,21 @@
             {
                 try
                 {
-                    // چک کردن وضعیت توکن در اینجا (اختیاری)
                     if (_cts.Token.IsCancellationRequested)
                         return;
-
-                    // ارسال توکن به متد جستجو
-                    await SignalRService.SearchPhoneBookAsync(_searchQuery );
+                    await SignalRService.CancelCurrentSearch();
+                    string requestId = Guid.NewGuid().ToString();
+                    _lastSearchRequestId = requestId;
+                    SignalRService.SetLastRequestId(requestId);
+                    await SignalRService.SearchPhoneBookAsync(_searchQuery, requestId);
                     await InvokeAsync(StateHasChanged);
                 }
                 catch (OperationCanceledException)
                 {
                     Console.WriteLine("🔴 جستجو لغو شد.");
                 }
-            }, null, 75, Timeout.Infinite);
+            }, null, 150, Timeout.Infinite);
         }
     }
+
 }

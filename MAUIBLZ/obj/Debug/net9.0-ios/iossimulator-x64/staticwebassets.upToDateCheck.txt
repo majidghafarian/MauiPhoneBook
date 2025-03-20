@@ -1,0 +1,9 @@
+C:\Users\This Me\Documents\GitHub\MauiPhoneBook\MAUIBLZ\wwwroot\css\app.css
+C:\Users\This Me\Documents\GitHub\MauiPhoneBook\MAUIBLZ\wwwroot\css\bootstrap\bootstrap.min.css
+C:\Users\This Me\Documents\GitHub\MauiPhoneBook\MAUIBLZ\wwwroot\css\bootstrap\bootstrap.min.css.map
+C:\Users\This Me\Documents\GitHub\MauiPhoneBook\MAUIBLZ\wwwroot\index.html
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\favicon.png
+wwwroot\index.html

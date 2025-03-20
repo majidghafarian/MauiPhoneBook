@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "WebApi.Controllers.ValuesController",
+    "Method": "Search",
+    "RelativePath": "api/Values/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

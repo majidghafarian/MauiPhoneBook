@@ -13,11 +13,26 @@ namespace WebApi.Hubs
         {
             _phoneBookService = phoneBookService;
         }
-        public async Task SendPhoneBookResults(string searchQuery)
+        private static readonly Dictionary<string, CancellationTokenSource> _clientCancellationTokens = new();
+
+        public async Task SendPhoneBookResults(string searchQuery, string requestId)
         {
             try
             {
-                var cancellationToken = Context.ConnectionAborted;
+                var connectionId = Context.ConnectionId;
+
+                // بررسی و لغو درخواست قبلی (اگر وجود دارد)
+                if (_clientCancellationTokens.TryGetValue(connectionId, out var oldCts))
+                {
+                    oldCts.Cancel();
+                    oldCts.Dispose();
+                    _clientCancellationTokens.Remove(connectionId);
+                }
+
+                // ایجاد یک CancellationTokenSource جدید برای این درخواست
+                var cts = new CancellationTokenSource();
+                _clientCancellationTokens[connectionId] = cts;
+                var cancellationToken = cts.Token;
 
                 if (string.IsNullOrWhiteSpace(searchQuery))
                     return;
@@ -36,19 +51,36 @@ namespace WebApi.Hubs
                 cancellationToken.ThrowIfCancellationRequested();
 
                 // ارسال نتایج به کلاینت
-                await Clients.All.SendAsync("ReceivePhoneBookResults", results, cancellationToken);
+                await Clients.Client(connectionId).SendAsync("ReceivePhoneBookResults", results, requestId);
+
             }
             catch (OperationCanceledException)
             {
-                Console.WriteLine("⛔ عملیات جستجو لغو شد.");
+                Console.WriteLine($"⛔ عملیات جستجو برای کاربر {Context.ConnectionId} لغو شد.");
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"❌ خطا در SendPhoneBookResults: {ex.Message}");
                 throw;
             }
+            finally
+            {
+                // حذف توکن لغو از دیکشنری پس از اتمام عملیات
+                _clientCancellationTokens.Remove(Context.ConnectionId);
+            }
         }
 
+        public Task CancelCurrentSearch()
+        {
+            var connectionId = Context.ConnectionId;
+            if (_clientCancellationTokens.TryGetValue(connectionId, out var cts))
+            {
+                cts.Cancel();
+                cts.Dispose();
+                _clientCancellationTokens.Remove(connectionId);
+            }
+            return Task.CompletedTask;
+        }
 
 
 
